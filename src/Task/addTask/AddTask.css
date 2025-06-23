@@ -1,0 +1,55 @@
+.addUser {
+  background-color: white;
+  width: 45%;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+.addUser h4 {
+  text-align: center;
+  color: darkcyan;
+  margin-bottom: 20px;
+}
+
+.addUserForm .inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.addUserForm label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.addUserForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.customBtn {
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}

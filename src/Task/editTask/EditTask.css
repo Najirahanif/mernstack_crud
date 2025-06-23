@@ -1,0 +1,73 @@
+.addUser {
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.addUser h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.addUserForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.inputGroup input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.inputGroup .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.customBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.customBtn:hover {
+  background-color: #0056b3;
+}
+
+.cancelBtn {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancelBtn:hover {
+  background-color: #aaa;
+}
