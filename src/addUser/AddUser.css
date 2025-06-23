@@ -1,0 +1,89 @@
+.addUser {
+  background-color: white;
+  width: 45%;
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+.addUser h4 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: darkcyan;
+  text-transform: uppercase;
+}
+
+.addUser p {
+  text-align: center;
+  color: #b1a0a0;
+  font-size: 16px;
+  font-weight:bold;
+  margin-bottom: 20px;
+}
+
+.addUserForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addUserForm label {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.addUserForm .inputGroup input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addUserForm .inputGroup .error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.customBtn {
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.customBtn:hover {
+  background-color: #007b8a;
+}
+
+.addUserForm .inputGroup.rememberLine {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rememberLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rememberMe {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.signInText {
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}

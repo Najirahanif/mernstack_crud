@@ -1,0 +1,22 @@
+body{
+  background-color: aliceblue;
+}
+.App .title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #f9d423, #ff4e50);
+  padding: 7px 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+  width: fit-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1.5px;
+  transition: transform 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.05);
+}
