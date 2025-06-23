@@ -4,16 +4,20 @@
 This is the **frontend** for a full-stack MERN (MongoDB, Express, React, Node.js) CRUD application. The frontend is built using **React**.
 mernstack_crud_frontend/
 This is my exact folder Structure
-├── mernstack_crud/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── AddUser/ # Signup component
-│ │ ├── LoginUser/ # Login component
-│ │ ├── Task/ # Task CRUD (add, list, update, delete) for the logged in user
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│ └── .env
+├── mernstack_crud/ 
+├── public/  
+├── src/  
+│   ├── AddUser/           → Component for user registration  
+│   ├── LoginUser/         → Component for user login  
+│   ├── Task/              → Components for task CRUD  
+│   │   ├── ListTask.js  
+│   │   └── AddTask.js  
+│   ├── App.js             → Main app routing component  
+│   ├── index.js           → Entry point for React  
+│   └── App.css            → Styles  
+├── .env                   → Environment variables for frontend  
+├── package.json           → Project dependencies and scripts  
+├── README.md              → This file  
 
 1. Navigate into the  mernstack_crud folder using
      cd  mernstack_crud
