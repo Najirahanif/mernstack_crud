@@ -89,7 +89,7 @@ const Login = () => {
           </label>
           <span
             className='signInText'
-            onClick={() => navigate('/signup')}
+            onClick={() => navigate('/')}
           >
             Sign up
           </span>

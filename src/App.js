@@ -8,7 +8,7 @@ import EditTask from './Task/editTask/EditTask.jsx';
 function App() {
   const route = createBrowserRouter([
         {
-          path:"/signup",
+          path:"/",
           element:<AddUser/>
         },
         {
